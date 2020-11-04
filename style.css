@@ -1,0 +1,36 @@
+.container > * {
+    border: 1px solid black;
+    padding : 40px;
+    margin: 5px;
+}
+
+.container {
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+header {
+    background-color: purple;
+    grid-column: 1/6;
+}
+
+footer {
+    background-color: purple;
+    grid-column: 1/6;
+}
+
+section {
+    background-color: blueviolet;
+    grid-column: 2/5;
+}
+
+#leftArticle {
+    background-color: cornflowerblue;
+    grid-column: 1;
+}
+
+#rightArticle {
+    background-color: cornflowerblue;
+    grid-column: 5;
+}
